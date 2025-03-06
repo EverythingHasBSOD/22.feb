@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML TITLE -->
+    <title>JavaScript Calculator with INPUTS</title>
+    <!-- STYLE LINK -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- FAVICON LINK -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <!-- MANIFEST LINK -->
+    <link rel="manifest" href="./favicon_io/site.webmanifest">
+
+</head>
+<body>
+   <!-- Title -->
+    <h1>Simple JS Calculator</h1>
+    <!-- input boxes -->
+     <div>
+<!-- input 01 -->
+        <label for="number" >Number 1</label>
+        <input id="1st-num" type="number" placeholder=" Enter Your Number 1">
+<!-- input 02 -->
+
+    <label for="number">Number 2</label>
+    <input id="2nd-num" type="number" placeholder=" Enter Your Number 2">
+ </div>
+
+<div>
+ <!-- awnser paragaph -->
+ <h3 id="result_sprite">__</h3>
+
+ <!-- BUTTON BOXES -->
+ <div>
+<!-- btn_01=sum -->
+<button onclick="func_sum ()"> + SUM</button>
+<!-- btn_02=difference -->
+<button onclick="func_difference ()"> - difference</button>
+<!-- btn_03=multiply -->
+<button onclick="func_multiply ()"> × multiply</button>
+<!-- btn_04=devide -->
+<button onclick="func_devide ()"> ÷ devide</button>
+<!-- btn_05=clear_it -->
+<button onclick="func_clear ()"> ⌦ CLEAR</button>
+ </div>
+</div>
+
+</body>
+<!-- JS Link -->
+<script src="./app.js"></script>
+</html>

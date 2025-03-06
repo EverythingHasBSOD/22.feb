@@ -1,0 +1,58 @@
+/* CASACADING VISUAL STYLE SHEET FOR BETTER EXPERIENCE */
+* {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 2px;
+}
+
+label,input {display: block;
+padding: 0;
+margin: 1%;}
+
+button {
+    display: block;
+padding: 1%;
+margin: 1%;
+}
+
+input {padding: 1px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+button {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: blue;
+border-radius: 20px;
+color: white;
+box-shadow: 2px 5px 5px black;
+text-transform: uppercase;
+cursor: pointer;}
+
+button:hover {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    border: gold 5px solid;
+    transition: 1s;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: white;
+    
+}
+
+h3 {margin-right: 5px;}
+
+input {background-color: blue;
+    border-radius: 6px ;
+    color: white;
+    box-shadow: 2px 5px 5px black;
+cursor: pointer;}
+
+    input:hover {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: green;
+        border-radius: 6px;
+        color: white;
+        border: gold 5px solid;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+  
